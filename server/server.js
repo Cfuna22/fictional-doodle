@@ -11,6 +11,7 @@ const adminRoutes = require('./routes/admin');
 
 const app = express();
 
+
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
